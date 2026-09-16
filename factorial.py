@@ -1,3 +1,4 @@
+# Calculates the factorial of a non-negative integer using recursion
 def factorial(n):
     if n < 0:
         raise ValueError("Factorial is not defined for negative numbers.")
